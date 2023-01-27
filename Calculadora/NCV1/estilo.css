@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(24, 50, 85);
+}
+section{
+    background-color: rgb(93, 93, 114);
+    width: 30rem;
+    height: auto;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 3rem;
+}
+input#num1{
+    background-color: rgb(255, 255, 255);
+    height: 15px;
+    width: auto;
+    }
+input#num2{
+    background-color: rgb(255, 255, 255);
+    height: 15px;
+    width: auto;
+    }
+input#cl{
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
+input{
+    font: 13px normal Arial;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(78, 163, 219);
+    height: 3rem;
+    width: 3rem;
+    justify-content: center;
+    }
+div#res{
+    background-color: rgb(99, 91, 91);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+   
+    padding: 10px;
+    width: 130px;
+    
+    text-align: center;
+}
+

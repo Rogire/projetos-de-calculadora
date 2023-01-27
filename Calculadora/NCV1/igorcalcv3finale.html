@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claurc</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <section>
+        <h1 style="color: white;">Calculadora</h1>
+        <hr>
+        <div>
+            <div id="calc"> <!--<input title="Insira o número aqui" type="number" id="num1">
+            <input title="Insira o Número aqui" type="number" id="num2">--></div>
+            <p>
+                <input type="button" id="cl" value="CE" onclick="limpar()">
+                <input type="button" id="div" value="/" onclick="dividir()">
+                <br>
+                <input title="1" id="1" type="button" value="1" onclick="um()">
+                <input title="2" id="2" type="button" value="2" onclick="dois()">
+                <input title="3" id="3" type="button" value="3" onclick="tres()"> <input type="button" id="som" value="+" onclick="somar()"><br>
+                <input title="4" id="4" type="button" value="4" onclick="quatro()">
+                <input title="5" id="5" type="button" value="5" onclick="cinco()" >
+                <input title="6" id="6" type="button" value="6" onclick="seis()"> <input type="button" id="sub" value="-" onclick="subtrair()"> <br> 
+                <input title="7" id="7" type="button" value="7" onclick="sete()" >
+                <input title="8" id="8" type="button" value="8" onclick="oito()">
+                <input title="9" id="9" type="button" value="9" onclick="nove()"><input type="button" id="mult" value="*" onclick="multiplicar()"> <br>
+                <input type="button" name="" value="." id="">
+                <input title="0" id="0" type="button" value="0" onclick="zero()">
+                <input title="." id="pont" type="button" value="."><input type="button" id="resu" value="=" onclick="resultado()">
+                <div id="res"></div>
+            </p>
+        </div>
+       
+        <hr>   
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
