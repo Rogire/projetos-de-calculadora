@@ -21,7 +21,7 @@ body{
 }
 section{
     background-color: rgb(93, 93, 114);
-    width: 17rem;
+    width: 14rem;
     height: auto;
     margin: auto;
     padding: 2rem;
@@ -34,6 +34,13 @@ input#cl{
 }
 #cl:hover{
     background-color: rgba(238, 217, 217, 0.116);
+}
+#rr{
+    background-color: rgb(88, 94, 99);
+    
+}
+#rr:hover{
+    background-color: rgb(123, 144, 160);
 }
 input{
 
